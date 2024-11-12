@@ -1,0 +1,14 @@
+ef9b2588b793c7f633d23d040eba2b1a *DESCRIPTION
+029b442af82f4cae11c9dd9ef7440a47 *NAMESPACE
+289972aa3b1107eaebc226ac71c638ae *R/BPLSR.R
+70812a4f1eebb23349103e967abede23 *R/bplsr-package.R
+7978c67e3839773a603fec7fb88ffe72 *R/data.R
+e3b931005048cecc4d080b943e53a92c *README.md
+20c8d3f97d93e2e318a22508275b5a02 *build/partial.rdb
+e3217101bd224aec75b8434ff6c327c4 *data/milk_MIR.rda
+cafdf844a1a50858a833bf5776caf0e7 *man/bplsr-package.Rd
+ab9d45a7355e785f950d14b2f2903a56 *man/bplsr.Rd
+12aa286a2423e02e7d9b311871989eec *man/bplsr.predict.Rd
+edd36f75bd87a2d9365396d6e0ac9508 *man/figures/README-example-1.png
+cbd2d98c8195cd4d22d46f9cb245c826 *man/figures/README-pressure-1.png
+8806f01015eae5d24ce5e8cb8f7c71f3 *man/milk_MIR.Rd
