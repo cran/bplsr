@@ -83,8 +83,8 @@ idx = sample(seq(nrow(X)),floor(nrow(X)*0.25),replace = FALSE)
 Xtrain = X[idx,];Ytrain = Y[idx,]
 Xtest = X[-idx,];Ytest = Y[-idx,]
 
-# fit the model (for default MCMC settings leave Qs and N_MCMC blank; can take longer)
-bplsr_Fit = bplsr(Xtrain,Ytrain, Qs = 10, N_MCMC = 5000)
+# fit the model (default MCMC settings can take longer)
+bplsr_Fit = bplsr(Xtrain,Ytrain)
 
 # generate predictions
 bplsr_pred = bplsr.predict(model = bplsr_Fit, newdata = Xtest)
@@ -106,7 +106,7 @@ Chun, H. and Keles, S. (2010). Sparse partial least squares regression for simul
 
 Trygg, J. and Wold, S. (2003). O2-PLS, a two-block (X–Y) latent variable regression (LVR) method with an integral OSC filter. \emph{Journal of Chemometrics}, 17(1):53–64.
 
-Urbas, S., Lovera, P., Daly, R., O'Riordan, A., Berry, D., and Gormley, I. C. (2024). "Predicting milk traits from spectral data using Bayesian probabilistic partial least squares regression." \emph{The Annals of Applied Statistics}, 18(4): 3486-3506. \if{html}{\out{<\doi{10.1214/24-AOAS1947}>}}
+Urbas, S., Lovera, P., Daly, R., O'Riordan, A., Berry, D., and Gormley, I. C. (2024). "Predicting milk traits from spectral data using Bayesian probabilistic partial least squares regression." \emph{The Annals of Applied Statistics}, 18(4): 3486-3506. <\doi{10.1214/24-AOAS1947}>
 
 Wold, H. (1973). Nonlinear iterative partial least squares (NIPALS) modelling: some current developments. In \emph{Multivariate analysis–III}, pages 383–407. Elsevier.
 }

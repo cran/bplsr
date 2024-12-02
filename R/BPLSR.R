@@ -54,8 +54,8 @@
 #' Xtrain = X[idx,];Ytrain = Y[idx,]
 #' Xtest = X[-idx,];Ytest = Y[-idx,]
 #'
-#' # fit the model (for default MCMC settings leave Qs and N_MCMC blank; can take longer)
-#' bplsr_Fit = bplsr(Xtrain,Ytrain, Qs = 10, N_MCMC = 5000)
+#' # fit the model (default MCMC settings can take longer)
+#' bplsr_Fit = bplsr(Xtrain,Ytrain)
 #'
 #' # generate predictions
 #' bplsr_pred = bplsr.predict(model = bplsr_Fit, newdata = Xtest)

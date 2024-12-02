@@ -12,6 +12,14 @@ partial least squares (PLS) method. See Urbas et al. (2024) for details.
 
 ## Installation
 
+Installing from CRAN:
+
+``` r
+install.packages('bplsr')
+```
+
+Installing directly from GitHub:
+
 ``` r
 # install.packages("devtools")
 devtools::install_github("SzymonUrbas/bplsr")
