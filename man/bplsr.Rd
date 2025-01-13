@@ -106,7 +106,7 @@ Chun, H. and Keles, S. (2010). Sparse partial least squares regression for simul
 
 Trygg, J. and Wold, S. (2003). O2-PLS, a two-block (X–Y) latent variable regression (LVR) method with an integral OSC filter. \emph{Journal of Chemometrics}, 17(1):53–64.
 
-Urbas, S., Lovera, P., Daly, R., O'Riordan, A., Berry, D., and Gormley, I. C. (2024). "Predicting milk traits from spectral data using Bayesian probabilistic partial least squares regression." \emph{The Annals of Applied Statistics}, 18(4): 3486-3506. <\doi{10.1214/24-AOAS1947}>
+Urbas, S., Lovera, P., Daly, R., O'Riordan, A., Berry, D., and Gormley, I. C. (2024). "Predicting milk traits from spectral data using Bayesian probabilistic partial least squares regression." \emph{The Annals of Applied Statistics}, 18(4): 3486-3506. \if{html}{\out{<\doi{10.1214/24-AOAS1947}>}}
 
 Wold, H. (1973). Nonlinear iterative partial least squares (NIPALS) modelling: some current developments. In \emph{Multivariate analysis–III}, pages 383–407. Elsevier.
 }

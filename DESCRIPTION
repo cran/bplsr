@@ -1,6 +1,6 @@
 Package: bplsr
 Title: Bayesian partial least squares regression
-Version: 1.0.1
+Version: 1.0.2
 Authors@R: c(
     person("Szymon", "Urbas", , "szymon.urbas@mu.ie", role = c("aut", "cre")),
     person("Pierre", "Lovera", role = "ctb"),
@@ -21,7 +21,7 @@ Depends: R (>= 2.10)
 LazyData: true
 Imports: coda, progress, statmod, stats, utils
 NeedsCompilation: no
-Packaged: 2024-12-02 10:20:22 UTC; surbas
+Packaged: 2025-01-13 12:22:19 UTC; surbas
 Author: Szymon Urbas [aut, cre],
   Pierre Lovera [ctb],
   Robert Daly [ctb],
@@ -29,4 +29,4 @@ Author: Szymon Urbas [aut, cre],
   Donagh Berry [ctb],
   Isobel Claire Gormley [ctb]
 Repository: CRAN
-Date/Publication: 2024-12-02 10:50:02 UTC
+Date/Publication: 2025-01-13 12:50:05 UTC
